@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Medical portfolio in English, Arabic, and German." />
+  <meta name="theme-color" content="#0b1220" />
+  <meta property="og:title" content="MU’TAZ HANANDEH | Portfolio" />
+  <meta property="og:description" content="Medical portfolio in English, Arabic, and German." />
+  <meta property="og:type" content="website" />
+  <title>MU’TAZ HANANDEH | Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="logo" aria-hidden="true"></span>
+        <span data-i18n="hero_title"></span>
+      </a>
+
+      <nav class="links" aria-label="Primary">
+        <a href="index.html" data-i18n="nav_home"></a>
+        <a href="about.html" data-i18n="nav_about"></a>
+        <a href="portfolio.html" data-i18n="nav_portfolio"></a>
+        <a href="contact.html" data-i18n="nav_contact"></a>
+      </nav>
+
+      <div class="lang">
+        <span data-i18n="lang_label"></span>
+        <select id="langSelect" aria-label="Language">
+          <option value="en">English</option>
+          <option value="ar">العربية</option>
+          <option value="de">Deutsch</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="card">
+        <h1 data-i18n="hero_title"></h1>
+        <p data-i18n="hero_sub"></p>
+
+        <div class="pillrow" aria-label="Key topics">
+          <span class="pill">Clinical Medicine</span>
+          <span class="pill">Patient Care</span>
+          <span class="pill">Medical Research</span>
+          <span class="pill">EMR</span>
+        </div>
+
+        <div class="actions">
+          <a class="btn primary" href="portfolio.html" data-i18n="cta_portfolio"></a>
+          <a class="btn" href="cv.pdf" target="_blank" rel="noopener" data-i18n="cta_download_cv"></a>
+          <a class="btn ghost" href="contact.html" data-i18n="cta_contact"></a>
+        </div>
+
+        <hr class="sep" />
+        <div class="notice">
+          <span class="dot" aria-hidden="true"></span>
+          <div>
+            <div style="font-weight:750; color:var(--text)" data-i18n="quick_title"></div>
+            <ul class="list">
+              <li data-i18n="q1"></li>
+              <li data-i18n="q2"></li>
+              <li data-i18n="q3"></li>
+              <li data-i18n="q4"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 style="margin:0 0 10px" data-i18n="summary_title"></h2>
+        <p style="margin:0;color:var(--muted);line-height:1.8" data-i18n="summary_text"></p>
+        <hr class="sep" />
+        <div class="small">
+          <div><span class="kbd">Tip</span> You can swap the logo with your photo: add <span class="kbd">assets/img/profile.jpg</span> and update the brand area.</div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span data-i18n="footer_text"></span>
+      <span class="small" data-i18n="footer_hint"></span>
+    </footer>
+
+  </main>
+
+  <script src="assets/data/translations.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>SiteLang.init();</script>
+</body>
+</html>
+

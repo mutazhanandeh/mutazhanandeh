@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Research, experience, courses, awards, and skills." />
+  <meta name="theme-color" content="#0b1220" />
+  <meta property="og:title" content="Portfolio | MU’TAZ HANANDEH" />
+  <meta property="og:description" content="Research, experience, courses, awards, and skills." />
+  <meta property="og:type" content="website" />
+  <title>Portfolio | MU’TAZ HANANDEH</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="logo" aria-hidden="true"></span>
+        <span data-i18n="hero_title"></span>
+      </a>
+
+      <nav class="links" aria-label="Primary">
+        <a href="index.html" data-i18n="nav_home"></a>
+        <a href="about.html" data-i18n="nav_about"></a>
+        <a href="portfolio.html" data-i18n="nav_portfolio"></a>
+        <a href="contact.html" data-i18n="nav_contact"></a>
+      </nav>
+
+      <div class="lang">
+        <span data-i18n="lang_label"></span>
+        <select id="langSelect" aria-label="Language">
+          <option value="en">English</option>
+          <option value="ar">العربية</option>
+          <option value="de">Deutsch</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title" data-i18n="portfolio_title"></h1>
+    <p class="page-sub" data-i18n="portfolio_sub"></p>
+
+    <section class="card">
+      <h2 style="margin:0 0 10px" data-i18n="sec_publications"></h2>
+      <ul class="list">
+        <li><span data-i18n="pub1"></span> <span class="small" data-i18n="pub1_doi"></span></li>
+        <li><span data-i18n="pub2"></span> <span class="small" data-i18n="pub2_doi"></span></li>
+      </ul>
+      <div class="notice" style="margin-top:14px">
+        <span class="dot" aria-hidden="true"></span>
+        <div>
+          <div style="font-weight:750; color:var(--text)" data-i18n="pub_future_title"></div>
+          <ul class="list">
+            <li data-i18n="pubf1"></li>
+            <li data-i18n="pubf2"></li>
+            <li data-i18n="pubf3"></li>
+            <li data-i18n="pubf4"></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="grid2">
+      <section class="card">
+        <h2 style="margin:0 0 10px" data-i18n="sec_experience"></h2>
+        <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:baseline">
+          <div style="font-weight:800" data-i18n="exp_role"></div>
+          <div class="small" data-i18n="exp_dates"></div>
+        </div>
+        <ul class="list">
+          <li data-i18n="exp_b1"></li>
+          <li data-i18n="exp_b2"></li>
+          <li data-i18n="exp_b3"></li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2 style="margin:0 0 10px" data-i18n="sec_courses"></h2>
+        <ul class="list">
+          <li data-i18n="course1"></li>
+          <li data-i18n="course2"></li>
+          <li data-i18n="course3"></li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="grid2">
+      <section class="card">
+        <h2 style="margin:0 0 10px" data-i18n="sec_awards"></h2>
+        <div style="font-weight:800; margin-bottom:8px" data-i18n="award_list_title"></div>
+        <ul class="list">
+          <li data-i18n="award1"></li>
+          <li data-i18n="award2"></li>
+          <li data-i18n="award3"></li>
+          <li data-i18n="award4"></li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2 style="margin:0 0 10px" data-i18n="sec_volunteer"></h2>
+        <ul class="list">
+          <li data-i18n="vol1"></li>
+          <li data-i18n="vol2"></li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="grid">
+      <section class="card">
+        <h3 data-i18n="skills1_title"></h3>
+        <p data-i18n="skills1_text"></p>
+      </section>
+      <section class="card">
+        <h3 data-i18n="skills2_title"></h3>
+        <p data-i18n="skills2_text"></p>
+      </section>
+      <section class="card">
+        <h3 data-i18n="skills3_title"></h3>
+        <p data-i18n="skills3_text"></p>
+      </section>
+    </div>
+
+    <section class="card" style="margin-top:16px">
+      <h2 style="margin:0 0 10px" data-i18n="sec_languages"></h2>
+      <div class="pillrow">
+        <span class="pill" data-i18n="lang1"></span>
+        <span class="pill" data-i18n="lang2"></span>
+        <span class="pill" data-i18n="lang3"></span>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span data-i18n="footer_text"></span>
+      <span class="small" data-i18n="footer_hint"></span>
+    </footer>
+
+  </main>
+
+  <script src="assets/data/translations.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>SiteLang.init();</script>
+</body>
+</html>
+

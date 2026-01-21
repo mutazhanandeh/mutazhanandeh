@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="About MU’TAZ HANANDEH — education, clinical experience, and strengths." />
+  <meta name="theme-color" content="#0b1220" />
+  <meta property="og:title" content="About | MU’TAZ HANANDEH" />
+  <meta property="og:description" content="About MU’TAZ HANANDEH — education, clinical experience, and strengths." />
+  <meta property="og:type" content="website" />
+  <title>About | MU’TAZ HANANDEH</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="logo" aria-hidden="true"></span>
+        <span data-i18n="hero_title"></span>
+      </a>
+
+      <nav class="links" aria-label="Primary">
+        <a href="index.html" data-i18n="nav_home"></a>
+        <a href="about.html" data-i18n="nav_about"></a>
+        <a href="portfolio.html" data-i18n="nav_portfolio"></a>
+        <a href="contact.html" data-i18n="nav_contact"></a>
+      </nav>
+
+      <div class="lang">
+        <span data-i18n="lang_label"></span>
+        <select id="langSelect" aria-label="Language">
+          <option value="en">English</option>
+          <option value="ar">العربية</option>
+          <option value="de">Deutsch</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title" data-i18n="about_title"></h1>
+    <p class="page-sub" data-i18n="about_sub"></p>
+
+    <div class="grid">
+      <div class="card">
+        <h3 data-i18n="about_block1_title"></h3>
+        <p data-i18n="about_block1_text"></p>
+      </div>
+      <div class="card">
+        <h3 data-i18n="about_block2_title"></h3>
+        <p data-i18n="about_block2_text"></p>
+      </div>
+      <div class="card">
+        <h3 data-i18n="about_block3_title"></h3>
+        <p data-i18n="about_block3_text"></p>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:16px">
+      <h3 style="margin:0 0 8px">What makes this site “perfect”</h3>
+      <ul class="list">
+        <li>Fast, mobile-friendly, and works as a static site (easy to host).</li>
+        <li>3 languages with one toggle + Arabic RTL layout.</li>
+        <li>Clean portfolio sections (research, experience, courses, awards).</li>
+      </ul>
+    </div>
+
+    <footer class="footer">
+      <span data-i18n="footer_text"></span>
+      <span class="small" data-i18n="footer_hint"></span>
+    </footer>
+
+  </main>
+
+  <script src="assets/data/translations.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>SiteLang.init();</script>
+</body>
+</html>
+
