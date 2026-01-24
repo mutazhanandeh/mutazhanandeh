@@ -105,7 +105,7 @@ window.TRANSLATIONS = {
     nav_contact: "تواصل",
     lang_label: "اللغة",
 
-    hero_title: "مُعتز حنانده",
+    hero_title: "مُعتز هنانده",
     hero_sub: "طبيب • ممارسة سريرية • أبحاث طبية",
     cta_portfolio: "عرض الملف المهني",
     cta_download_cv: "تحميل السيرة الذاتية",
@@ -192,7 +192,7 @@ window.TRANSLATIONS = {
     form_email: "البريد الإلكتروني",
     form_message: "الرسالة",
     form_send: "إرسال (تجريبي)",
-    footer_text: "© 2026 مُعتز حنانده. جميع الحقوق محفوظة.",
+    footer_text: "© 2026 مُعتز هنانده. جميع الحقوق محفوظة.",
     footer_hint: "موقع ثابت (يعمل على GitHub Pages)."
   },
 
